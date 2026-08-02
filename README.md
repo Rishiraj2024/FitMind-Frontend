@@ -1,48 +1,77 @@
-# ⚡ FitMind AI - Premium Frontend Application
+# 💪 FitMind Frontend
 
-FitMind AI is a modern, high-performance fitness management dashboard and real-time AI coaching web application built with React, Vite, Framer Motion, and Tailwind CSS.
+FitMind Frontend is a modern fitness and wellness web application built with **React** and **Vite**. It provides an intuitive interface for workout tracking, nutrition management, AI-powered fitness guidance, and progress monitoring.
 
----
+## 🚀 Features
 
-## 🌟 Key Features
-
-* **🤖 FitMind AI Coach**: Live, real-time AI fitness assistant powered by multi-topic LLM response routing (Workout routines, Nutrition, Form guides, Fiber/Macros, Hydration, Sleep, and Recovery).
-* **📊 Interactive Overview & Stat Modals**: 6 interactive health metric cards for Calories Burned, Weight Logging, BMI Analysis, Heart Rate Zones, Hydration Log (+250ml), and Dynamic Workout Streaks.
-* **🏋️ Active Workout Tracker**: Real-time timer, volume calculator, set logging, dynamic exercise fallbacks, and instant Home card sync.
-* **🥗 Diet & Nutrition Summary**: Macro tracking (Protein, Carbs, Fats), water log, and neon gradient navigation buttons.
-* **🎯 Interactive Achievements & Goals**: Milestone trophy room with deduplicated badges, interactive "+ Create Goal" modal, active goal progress bars, and instant Goal Deletion.
-* **📚 Workout Learning Guides**: Technique tutorials for Heavy Squats, Deadlifts, Bench Press, Overhead Press, Progressive Overload, and Protein Synthesis.
-* **🌙 Dark / Light Mode**: Dynamic high-contrast theme switching.
-
----
+- AI Fitness Coach
+- Workout Tracking
+- Nutrition & Water Tracking
+- Progress Dashboard
+- Goals & Achievements
+- Dark/Light Mode
+- Responsive UI
+- Secure API Integration
 
 ## 🛠️ Tech Stack
 
-* **Core**: React 18, Vite
-* **Styling**: Tailwind CSS, Glassmorphism design tokens
-* **Animations**: Framer Motion
-* **State & Query Management**: TanStack React Query v5
-* **Icons & Notifications**: Lucide React, Sonner Toasts
-* **HTTP Client**: Axios
+- React 18
+- Vite
+- Tailwind CSS
+- Framer Motion
+- TanStack React Query
+- Axios
+- Lucide React
 
----
+## ⚙️ Environment Variables
 
-## 🚀 Local Setup & Installation
+Create a `.env` file in the project root:
+
+```env
+VITE_API_URL=https://fitmind-backe--your server
+```
+
+## 💻 Getting Started
 
 ### Prerequisites
-* **Node.js**: v18.0.0 or higher
-* **npm**: v9.0.0 or higher
 
-### Steps
-1. Clone the repository and navigate to the frontend directory:
-   ```bash
-   cd frontend
-    Navigate to the frontend directory:
-bash
-cd frontend
-2. Install all dependencies:
-     bash npm install
-3. Create environment configuration (.env):
-       env VITE_API_URL=https://fitmind-backend-1-xk8d.onrender.com/api/v1
-4. Start the development server:
- bash npm run dev
+- Node.js 18+
+- npm 9+
+
+### Installation
+
+```bash
+git clone <repository-url>
+cd FitMind-Frontend
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The application will run at:
+
+```
+http://localhost:5173
+```
+
+## 📁 Project Structure
+
+```
+src/
+ ├── components/
+ ├── pages/
+ ├── hooks/
+ ├── services/
+ ├── context/
+ ├── assets/
+ └── utils/
+```
