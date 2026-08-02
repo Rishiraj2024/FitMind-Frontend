@@ -37,3 +37,12 @@ FitMind AI is a modern, high-performance fitness management dashboard and real-t
 1. Clone the repository and navigate to the frontend directory:
    ```bash
    cd frontend
+    Navigate to the frontend directory:
+bash
+cd frontend
+2. Install all dependencies:
+     bash npm install
+3. Create environment configuration (.env):
+       env VITE_API_URL=https://fitmind-backend-1-xk8d.onrender.com/api/v1
+4. Start the development server:
+ bash npm run dev
